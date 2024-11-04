@@ -26,40 +26,49 @@ body {
       .small-circle {
         width: 168px;
         height: 168px;
-        background-color: rgb(252, 188, 184);
+        background-color: $pink;
         position: absolute;
         border-radius: 50%;
-        right: -50px;
+        right: -70px;
         top: -50px;
         z-index: -1;
         display: flex;
         align-items: center;
         justify-content: center;
-        padding: 20px;
-        box-shadow: -5px 10px 10px 1px rgba(136, 136, 136, 0.5);
+        // padding: 20px;
+        box-shadow: -3px 10px 10px 1px rgba(39, 39, 39, 0.247);
         font-size: 10px;
 
         p {
           width: 106px;
+          font-family: lato-ita;
+          padding-top: 20px;
         }
       }
 
       .big-circle {
         width: 357px;
         height: 357px;
-        background-color: rgb(255, 217, 114);
+        background-color: $yellow;
         border-radius: 50%;
         display: flex;
         flex-direction: column;
         align-items: center;
         justify-content: center;
         padding: 20px;
-        box-shadow: -5px 10px 10px 1px rgba(136, 136, 136, 0.5);
+        box-shadow: -3px 10px 10px 1px rgba(39, 39, 39, 0.247);
         font-size: 13px;
+
+        h1 {
+          font-size: 24px;
+          font-family: caveat;
+          font-weight: bold;
+        }
 
         p {
           width: 164px;
           margin-top: 30px;
+          font-family: lato-reg;
         }
       }
     }
