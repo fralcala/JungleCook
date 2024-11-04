@@ -240,3 +240,11 @@ body .home .circle-container .big-circle p {
   margin-top: 30px;
   font-family: lato-reg;
 }
+
+@media (max-width: 768px) {
+  .home .circle-container .small-circle {
+    position: absolute;
+    top: -97px !important;
+    left: 180px;
+  }
+}

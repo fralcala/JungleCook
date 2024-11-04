@@ -74,3 +74,15 @@ body {
     }
   }
 }
+
+@media (max-width: 768px) {
+  .home {
+    .circle-container {
+      .small-circle {
+        position: absolute;
+        top: -97px !important;
+        left: 180px;
+      }
+    }
+  }
+}
